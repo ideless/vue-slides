@@ -2,6 +2,8 @@
 
 A modern, developer-centric slideshow framework powered by **Vite**, **Vue**, and **Tailwind CSS**. Create high-quality presentations using Vue components with built-in support for LaTeX, diagrams, and interactive canvas elements.
 
+[Demo](http://ideless.github.io/vue-slides)
+
 ## Features
 
 - **Seamless Navigation**: Play slideshows with built-in support for pauses, animations, and intuitive keyboard shortcuts.
