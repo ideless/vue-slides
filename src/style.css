@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+.btn {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Basic styles */
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin-left: 16px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 24px;
+}
+
+kbd {
+  background-color: #eeeeee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow:
+    0 1px 1px rgb(0 0 0 / 0.2),
+    0 2px 0 0 rgb(255 255 255 / 0.7) inset;
+  color: #333333;
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: bold;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+  position: relative;
+}
+
+a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+a:focus {
+  outline: 2px solid #93c5fd;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
